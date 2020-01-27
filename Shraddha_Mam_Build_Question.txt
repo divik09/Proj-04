@@ -1,0 +1,154 @@
+
+BUILD QUESTIONS--------------------------------------------------
+
+01) what is ORS ?
+02) dependencies in pom.xml?
+03) types of validation in the project?
+04)* how you can apply the client side validation? through javascript
+05) write the modeules yout have worked on in the projet?
+06) what is pom.xml?
+07) what is web.xml?
+08) error message flow?
+09) success messages flow?
+10) *how you are performing bussiness validation?
+11) what is bussiness validation?
+12) which tag u have to displying image on page?
+13) *write the signature of any model methods?
+14) what are the utility classes you have in your project?
+15) what is the purpose to use utiity classes?
+16) how u r sending email?
+17) what are the classes you have used to sending emails?
+18) *where you have placed sendMail() in your project?
+--------------------------------------------------------------------------------------------------------------
+/1.      *What is FrontController?
+2.	What is input validation and bussness validation?
+3.	*Why override service method?
+4.	*What is mvc architecture.?
+5.	What  is javadoc.?
+6.	What is customize exception?
+7.	What is tomcat directory sturucture.?
+8.	What is jboss directory sturucture.?
+9.	**What is all tag of jsp
+10.	How many types of session tracikng.?
+11.	How many types of create servlet.?
+12.	What is servlet lifecycle.?
+13.	*Difference between jboss and tomcat,?
+14.	*Difference between web server and application server.?
+15.	*Difference between checked exception and unchecked exception.?
+16.	*Difference between comparable and comparator.?
+17.	*Difference between generic servelt and http servlet.?
+18.	*Difference between forword and send redirect.?
+19.	*Difference between string buffer and string builder.?
+20.	*Difference between static polymorphism and dynamic polymorphism.?
+21.	*Difference between url,urn.?
+22.	 What is base bean .?
+23.	What is basectl. And all methods.?
+24.	*What is maven.?
+25.	*What is pom.xml.?
+26.	*What is log4j.?
+27.	*What is mvc architecture.?
+28.	What is design pattern.?
+29.	What is javadoc.?
+30.	*What is normalization.?
+31.	What is all utility classes.?
+32.	How many  types use for scope.?
+33.	How many types interface use for project.?
+34.	How many abstract class use for project.?
+35.	How many types session destroy.?
+36.	When run for service method.?
+37.	*What is acid properties.
+38.	*How to call in service method preload and validate.
+39.     *What is the build Process?
+40.     *Who generates the war file?
+41.     *how many environment are there in Log4j framework?
+42.     *why BaseBean is abstract class in your project?
+43.     how many layers are present in the mvc architecture?
+44.     *what are the implicit objects in jsp?
+45.     **how will you do file attachment along with email?
+46.     **how many design patterns you have used in your application explain?
+47.     *write the code for search method?
+48.     *write the code to make frontcontroller?
+49.     *what is debugging?
+50.     **how to perform debugging using keys explain?
+51.     how many interfaces you have used in your project?
+52.     *what is service method? is it compulsary to ovveride it?
+53.     *what is the jsp page life cycle?
+54.     *what is rolling file appender in Log4J?
+55.     *what is appender in Log4j and types of appender?
+56.     *what is layout in Log4j and types of layouts?
+57.     *what is Logger in Log4j and its levels?
+58.     *what is the pattern layout in Log4j and its symbolic representation explain?
+59.     How many exceptions classes you have in your project?
+60.     how to create custom exceptions?
+61.     how many ways to invalidate session();
+62.     how to enable session?
+63.     *difference between session(true) and session(false);
+64.     how to format the code?
+65.     *what is release note in build process?
+66.     *how to disable Log4j messages?
+67.     **what if there is not an entry of welcome file in web.xml explain?
+68.     *how to set timeout for session in web.xml?
+69.     what is the default timeout for session?
+70.     *difference between session and cookies?
+71.     how to identify user on server?
+72.     **difference between application server and web server?
+73.     list out the name of web server and application server?
+74.     **how u r performing encapsulation in your project?
+75.     **how you r using ovveriding concept in your project?
+76.     **how u are identify ur exception classes are checked aur uncheked?
+
+
+----------------------------------------------------------------------------
+78.	Why welcome.jsp run first : and in which tag? welcome file list welcome file me
+79.	How Hi Guest is coming on header?
+80.	Input & Bussiness validation are set in which scope? REQUEST
+81.	What is the alternate way to access Application ? forget my password
+	OR Why we use Java Mail API 1.4.3 in forget my password ?
+82.	What is System.properties? resource bundel to remove hard coding
+83.	What is JDBC? SET OF INTERFACES.
+84.	What are the key interfaces of JDBC? OR Distinguish between classes and Interfaces of JDBC?
+85.	Write the SQL_Queries of All the Methods of UserModel?
+86.	Show methods of servlet which you have Extended? HTTPSERVLET & ITS METHODS 
+	(ALSO DIFFERENTIATE BETWEEN ITS doGet &doPost methods)
+87.	How JavaDoc is opening in other tag:ANd Where You have used it in your project? IN HEADER:-<a href="<%=ORSView.JAVA_DOC_VIEW%>" target="blank">Java Doc</b></a>
+88.	Header code Hi Rahul Is in which scope? SESSION
+89.	When does Query string is shown on url: And what does this query string means__ ?id=42	
+90.	Difference b/w RequestDispatcher and send rediect?
+91.	***Did you use Dynamic(Runtime) and Static(Fixed) preload And if yes Where?
+92.	Dynamic And Static Methods? Overriding And OverLoading.
+93.	Did you override validate method to put Input validations, if so From where you have overriden it?
+	(How you used Input validations in our project04? BY OVERRIDING VALIDATE())
+94.	Who called service()? CONTAINER
+95.	Do Validate() runs in UserRegistration? YES ON EVERY SUBMIT 
+96.	How you used --select-- in DropdownList? USING HASHMAP
+97.	When when does the validate() calls?  WHEN 5 OP(reset,cancel,not_null,n View,Delete) ARE NOT CALLED
+96.	How you are bringing DropDownList & preload?
+97.	////where are the changes done TimeTableListCtl : What if we have to change it ffrom extra fields?
+98.	FullForm of WAR & JAR file : Also Explain it? web archive & java archieve & java simple object notation(JASON) 
+99.	What are the credentials comes with mail? OR // what are the Events in which mails are send to the clients?
+100.	Why we use PRIVATE to create javadoc? BCS WE HAVE TO CREATE IT FOR FULL APPLICATION
+101.	What are Maven WAR AND What is Compiler plugins?
+102.	Do UserRegistration is included in user Module? NO
+103.	What are the arguments of ChangePassword? login id , old , new password
+104.	href is used in which tag? ANCHOR <a>
+105.	IF User Registration is done then what will be the role Id??????
+106.	How you set a value? USING REQUEST SCOPE
+107.	Explain populateBean AND populateDTO : And where they exist in our project? DTO PRESENT IN BASECTL & HOLD GENERIC ATTRIBUTE
+108.	When does ApplicationException comes? IS propogated sevice classes when an unhandle exception occured.
+109.	How CALENDER is displaying on the screen : and its dependencies used in project?
+110.	Who is calling validate()? SERVICE() & IT IS CALLED BY CONTAINER & CONTAINER IS CALLED BY JVM.
+111.	How we config DCP? JAVADOC OF JDBC:- IT IS A SINGLETON CLASS WHICH HAVE USED c3p0 LIBERARY.
+112.	Hoe to create objects of RB,RD,Session?
+113. 	Create a dummy singleton class?
+114.	What does getInstance() do?  same class ka INSTANCE RETURN 
+115. 	What does BridgeDesign PAttern do? SINGLE DIERCTION MULTIPLE IMPLEMENTATION
+116.	What id the javadoc of methods, attribute????
+117.	How we can apply for update link in project? USING EDIT LINK
+118.	how we can apply for frontctl? by extending Filter
+119.	How we achieved refrential integrity (Concept of FK) in our project? BY USING NON BS KEY
+120.	List interface is exist in which pakage? UTIL
+121.	What is Marker Interface? IN WHICH NO METHODS EXIST
+122.	Serialiizable, cloning, comparable , compareTo? SERIALIZABLE IS USED IN BASEBEAN IN WHICH OBJ IS STORED IN PERSISTENCE MEMORY.
+123.	Do we Implements in BaseBean?
+124.	What is the function of chain.doFilter() ?
+125.	Explain the properties of Log4j?
